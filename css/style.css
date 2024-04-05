@@ -264,3 +264,8 @@ div.d-grid {
 img.img-fluid {
   margin-top: 30px;
 }
+
+h1.display-1.fw-bolder {
+  font-family: 'Poppins', sans-serif;
+  color: aliceblue;
+}
