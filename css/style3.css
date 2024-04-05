@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+body {
+    background-color: #4caf50;
+    color: aliceblue;
+    font-family: 'Poppins', sans-serif;
+}
+.card {
+  border: 2px solid aliceblue; /* Change the border size and color as needed */
+  border-radius: 10px; /* Optional: Add border radius for rounded corners */
+  background-color: #4caf50;
+  color: aliceblue;
+}
+
+
+.navbar-collapse {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #3e4149;
+  }
+  .navbar-toggler,
+  .navbar-brand {
+    z-index: 1;
+  }
+  .navbar-brand {
+    font-size: 1.8em;
+  }
+  .navbar-toggler:focus {
+    box-shadow: none;
+  }
+  .navbar-collapse .nav-link {
+    font-size: 1.5em;
+    letter-spacing: 2px;
+    color: #fff;
+  }
+  .navbar-collapse .nav-link:hover,
+  .navbar-collapse .nav-link.active {
+    color: darkseagreen;
+  }
+  .nav-item:not(:last-child) {
+    border-bottom: 1px solid gray;
+    padding: 0.2em 4em;
+  }
+  @media screen and (min-width: 768px) {
+    .nav-item:not(:last-child) {
+      padding: 0.5em 8em;
+    }
+  }
+  .navbar-collapse.show {
+    transition: all 0.5s;
+  }
+
+
+button.btn.btn-lg {
+  color: transparent;
+  border-color: aliceblue;
+}
+
+div.d-grid {
+  color: aliceblue;
+}
+
+.btn-transparent {
+  background-color: transparent;
+  border: 2px solid white; /* Set border color to white */
+  color: white; /* Set button text color to white */
+  transition: all 0.3s ease;
+}
+
+/* On hover, only change the background color */
+.btn-transparent:hover {
+  background-color: white;
+  color: white; /* Keep button text color white */
+}
+
+
+.p.text-center.custom-paragraph {
+  font-size: 50px;
+}
+
+.custom-paragraph {
+  font-size: 20px; /* or any other desired font size */
+}
+
+.bg-dark.text-light.py-4 {
+    background-color: #3e4147;
+}
+
+button.btn.btn-lg {
+    color: aliceblue;
+}
+
+div.lc-block.mb-4 {
+    margin-top: 50px;
+}
+
+h1.display-5.fw-bold {
+    font-size: 40px;
+    color: aliceblue;
+}
+
+h1.display-2.fw-bold {
+    font-size: 60px;
+    color: aliceblue;
+}
+h2.display-5.fw-bold {
+    font-size: 25px;
+}
+
+h4 {
+    font-size: 16px;
+}
+h5.display-5.fw-bold {
+    font-size: 30px;
+}
+
+p.lead {
+    font-size: 20px;
+}
+
+img.img-fluid {
+    margin-bottom: 20px;
+  }
+
+  button.btn-outline-primary.mt-2 {
+    background-color: transparent;
+    background-color: aliceblue;
+    }
+  
+    a.btn.px-4.me-md-2 {
+    border-color: aliceblue;
+    color: aliceblue;
+    }
+  
+    p.reduce {
+      font-size: 20px;
+      color: aliceblue;
+    }
+
+    a.btn.btn-outline-primary.mt-2.text-center {
+        border-color: aliceblue;
+        background-color: transparent;
+        color: aliceblue;
+    }
+
+    button.btn.btn-primary.bsb-btn-3xl {
+        border-color: aliceblue;
+        background-color: transparent;
+        color: aliceblue;
+    }
+
+    div#email-newsletter-help {
+        color: aliceblue;
+    }
+
+    button.btn.btn-outline-primary.mt-2 {
+        border-color: aliceblue;
+        background-color: transparent;
+        color: aliceblue;
+    }
